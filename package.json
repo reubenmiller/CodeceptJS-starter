@@ -1,0 +1,37 @@
+{
+  "name": "codeceptjs-starter",
+  "version": "0.0.1",
+  "description": "Acceptance Testing with CodeceptJS",
+  "repository": "https://yourgiturl.git",
+  "author": "John Smith <john.smith@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "codeceptjs": "./node_modules/.bin/codeceptjs",
+    "install:selenium": "npm install -g selenium-standalone@6.4.0 && selenium-standalone install",
+    "start:serverwin": "cmd /c start selenium-standalone start",
+    "start:serverlinux": "selenium-standalone start",
+    "shell": "codeceptjs shell",
+    "test": "codeceptjs run-multiple --all --reporter mocha-multi",
+    "test:multi_chrome": "codeceptjs run-multiple chrome:chrome --reporter mocha-multi",
+    "test:multi_ie": "codeceptjs run-multiple \"ie:internet explorer\" --reporter mocha-multi",
+    "disable:iezones": "Powershell -ExecutionPolicy bypass -File ./extras/Disable-InternetExplorerZones.ps1"
+  },
+  "dependencies": {
+    "codeceptjs": "^1.1.1",
+    "codeceptjs-webdriverio": "^1.0.1",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "mocha-junit-reporter": "^1.13.0",
+    "mocha-multi": "^0.11.0",
+    "mochawesome": "^2.2.0",
+    "nightmare": "^2.10.0",
+    "selenium-standalone": "^6.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}

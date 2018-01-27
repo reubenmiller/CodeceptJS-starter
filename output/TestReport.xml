@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.447" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-01-27T20:11:26" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Test Details" timestamp="2018-01-27T20:11:26" tests="2" file="/Users/reubenmiller/codeceptjs-starter/tests/example_test.js" failures="0" time="7.447">
+    <testcase name="Test Details: Test scenario for Internet Explorer @ie" time="3.665" classname="Test scenario for Internet Explorer @ie">
+    </testcase>
+    <testcase name="Test Details: Test scenario for chrome @chrome" time="3.782" classname="Test scenario for chrome @chrome">
+    </testcase>
+  </testsuite>
+</testsuites>

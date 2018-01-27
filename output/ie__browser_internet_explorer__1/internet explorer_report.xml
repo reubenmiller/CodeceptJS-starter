@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.194" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2018-01-27T20:13:54" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Test Details" timestamp="2018-01-27T20:13:54" tests="2" file="/Users/reubenmiller/codeceptjs-starter/tests/example_test.js" failures="1" time="0.194">
+    <testcase name="Test Details &quot;before each&quot; hook: codeceptjs.before for &quot;Test scenario for Internet Explorer @ie&quot;" time="0.194" classname="&quot;before each&quot; hook: codeceptjs.before for &quot;Test scenario for Internet Explorer @ie&quot;">
+      <failure><![CDATA[Unable to create new service: InternetExplorerDriverService
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Reubens-MBP', ip: '192.168.2.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_25'
+Driver info: driver.version: unknown]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
