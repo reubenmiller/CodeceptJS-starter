@@ -8,5 +8,6 @@ Scenario('Test scenario for Internet Explorer @ie', async (I) => {
 
 Scenario('Test scenario for chrome @chrome', async (I) => {
   await I.amOnPage('/');
+  await I.resizeWindow('maximize');
   await I.wait(2);
 });

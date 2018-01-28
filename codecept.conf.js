@@ -27,6 +27,10 @@ exports.config = {
     WebDriverIO: {
       url: 'https://formsviewertest.azurewebsites.net',
       browser: 'chrome',
+      windowSize: 'maximize',
+    },
+    Mochawesome: {
+      uniqueScreenshotNames: true,
     },
     FileSystem: {},
   },
