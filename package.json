@@ -6,7 +6,7 @@
   "author": "John Smith <john.smith@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "codeceptjs": "./node_modules/.bin/codeceptjs",
+    "codeceptjs": "codeceptjs run --reporter mocha-multi",
     "install:selenium": "npm install -g selenium-standalone@6.4.0 && selenium-standalone install",
     "start:serverwin": "cmd /c start selenium-standalone start",
     "start:serverlinux": "selenium-standalone start",
