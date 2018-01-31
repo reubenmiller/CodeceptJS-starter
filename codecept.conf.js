@@ -32,6 +32,9 @@ exports.config = {
     Mochawesome: {
       uniqueScreenshotNames: true,
     },
+    REST: {
+      endpoint: 'https://google.com',
+    },
     FileSystem: {},
   },
   include: {},

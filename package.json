@@ -12,11 +12,13 @@
     "start:serverlinux": "selenium-standalone start",
     "shell": "codeceptjs shell",
     "test": "codeceptjs run-multiple --all --reporter mocha-multi",
+    "test:rest": "codeceptjs run --grep 'rest' --reporter mocha-multi",
     "test:multi_chrome": "codeceptjs run-multiple chrome:chrome --reporter mocha-multi",
     "test:multi_ie": "codeceptjs run-multiple \"ie:internet explorer\" --reporter mocha-multi",
     "disable:iezones": "Powershell -ExecutionPolicy bypass -File ./extras/Disable-InternetExplorerZones.ps1"
   },
   "dependencies": {
+    "chai": "^4.1.2",
     "codeceptjs": "^1.1.1",
     "codeceptjs-webdriverio": "^1.0.1",
     "jquery": "^3.2.1",
@@ -25,7 +27,8 @@
     "mocha-multi": "^0.11.0",
     "mochawesome": "^2.2.0",
     "nightmare": "^2.10.0",
-    "selenium-standalone": "^6.4.0"
+    "selenium-standalone": "^6.4.0",
+    "unirest": "^0.5.1"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
